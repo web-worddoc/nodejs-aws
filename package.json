@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "nodejs-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "lerna": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-worddoc/nodejs-aws-fe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-worddoc/nodejs-aws-fe/issues"
+  },
+  "homepage": "https://github.com/web-worddoc/nodejs-aws-fe#readme",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
