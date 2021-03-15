@@ -2,7 +2,6 @@
   "private": true,
   "name": "nodejs-aws",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz"
@@ -11,10 +10,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "lerna": "^4.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/web-worddoc/nodejs-aws-fe.git"
-  },
+  "repository": "https://github.com/suspense-dev/nodejs-aws",
   "keywords": [],
   "author": "",
   "license": "ISC",
